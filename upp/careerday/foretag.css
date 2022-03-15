@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background-image: url(/careerday/images/optima.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    user-select: none;
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.329);
+    background-size: cover;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+.parent h1 {
+    margin: 20px;
+}
+
+.logos {
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.logos a img {
+    width: 62px;
+    margin: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footertext {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    margin: 50px;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+}
+
+.list ul li a {
+    text-decoration: none;
+    padding: 25px;
+    transition: 0.5s;
+}
+
+.list ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.26);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .logos {
+        width: 500px;
+    }
+
+    .logos a img {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+.header {
+    height: 150px;
+    flex-direction: column;
+}
+.list ul li a {
+    padding: 20px;
+}
+.list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.parent h1 {
+    font-size: 1.5rem;
+}
+.parent h2 {
+    font-size: 1rem;
+}
+.footer {
+    height: 100px;
+    flex-direction: column;
+}
+.footertext {
+    font-size: 0.7rem;
+} 
+.footer img {
+    display: none;
+}
+
+.logos {
+    width: 300px;
+}
+
+.logos a img {
+    width: 40px;
+}
+}
