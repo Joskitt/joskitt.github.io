@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+.topbar {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 20%, rgba(0,0,0,1) 100%);
+    overflow: hidden;
+}
+
+.profilePicture {
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content2 {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.content2 i {
+    margin-right: 20px;
+}
+
+.topbar.scrolled {
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    color: white;
+}
+
+.content a {
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    width: 180px;
+}
+
+.parent {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myVideo {
+    margin-top: -100px;
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+    margin-right: 50%;
+}
+
+.textContainer h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.textContainer h3 {
+    margin-top: 20px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+}
+
+.spela {
+    color: black;
+    background-color: white;
+    width: 230px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.spela i {
+    color: black;
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.buttonp {
+    margin-top: 20px;
+}
+
+.spela:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.info i {
+    color: white;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+.info:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.contentBox {
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    flex-direction: column;
+}
+.contentBox2 {
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    bottom: -300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.posterContainer1 {
+    min-width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow-x:visible;
+}
+.posterContainer2 {
+    min-width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow-x:visible;
+}
+.posterComponent:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.list {
+    position: absolute;
+}
+
+.poster {
+    width: 250px;
+    height: 140px;
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+.posterComponent {
+    transition: 0.5s;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.posterLabel {
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}

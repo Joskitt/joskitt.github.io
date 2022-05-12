@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/57535f4f45.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://pngimg.com/uploads/netflix/netflix_PNG10.png">
+    <link rel="stylesheet" href="../styles/signIn.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="topbar">
+        <a href="/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="">
+        </a>
+    </div> 
+        <div class="parent">
+            <div class="container">
+               <div class="signinContainer">
+                   <h1>Sign in</h1>
+                   <form id="loginForm">
+                   <div class="email-container">
+                        <div class="user-input-wrp">
+                        <br/>
+                        <input type="email" id="email" class="inputText" required/>
+                        <span class="floating-label">Email or phone number</span>
+                        </div>
+                    </div>
+                    <div class="email-container">
+                        <div class="user-input-wrp">
+                        <br/>
+                        <input type="password" id="password" class="inputText" required/>
+                        <span class="floating-label">password</span>
+                        </div>
+                    </div>
+                       <button type="submit" class="submit">Sign In</button>
+                       <div class="con">
+                        <label class="lilContainer">Remember me
+                            <input type="checkbox">
+                            <span class="mark"></span>
+                          </label>
+                            <a href="">Need help?</a>
+                       </div>
+                   </form>
+                   <div class="con">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <p>Login with Facebook</p>
+                   </div>
+                   <div class="con1">
+                       <p>New to Netflix?</p>
+                       <a href="/register">Sign up now</a>
+                   </div>
+                   <p class="paragraph">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more.</a></p> 
+               </div>
+            </div>
+            <div class="footer">
+                <div class="top">Questions? Call 0800 302 533</div>
+                <div class="middleparent">
+                    <div class="row">
+                        <a href="">FAQ</a>
+                        <a href="">Cookie Preferences</a>
+                    </div>
+                    <div class="row">
+                        <a href="">Help Centre</a>
+                        <a href="">Corporate Information</a>
+                    </div>
+                    <div class="row">
+                        <a href="">Terms of Use</a>
+                    </div>
+                    <div class="row">
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+                <div class="buttonp">
+                    <button id="lang"><i class='fa fa-globe'></i> English <i class="fas fa-caret-down"></i></button>
+                    <p>Netflix Finland</p>
+                </div>   
+        </div>
+        <script type="module" src="../js/signIn.js"></script>
+</body>
+</html>
